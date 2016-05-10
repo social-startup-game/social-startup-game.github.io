@@ -2,6 +2,34 @@
 <html>
   <head>
     <title>Social Startup Game</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <style type='text/css'>
+      body {
+        font-family: 'Lato', sans-serif;
+        background-color: rgb(126, 158, 147);
+        color: rgb(28, 55, 115);
+      }
+      .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 431px;
+        height: 268px;
+      }
+      .button {
+        text-align: center;
+        left-margin: auto;
+        right-margin: auto;
+      }
+      .playnow {
+        display: inline-block;
+        background-color: rgb(251,250,201);
+        color: rgb(28, 55, 115);
+        padding: 1em 2em;
+        text-decoration: none;
+        overflow: hidden;
+      }
+    </style>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -13,11 +41,40 @@
     </script>
   </head>
   <body>
+    <a href="social-startup-game">
+      <img class="logo" src="logo.png"
+	   alt="Social Startup Game logo"></img>
+    </a>
+    <div class="button">
+      <a class="playnow" href="social-startup-game">
+	Play Now!
+      </a>
+    </div>
+
+    <h2>About</h2>
     <p>
-      This is the informational site for <i>Social Startup Game</i>.
+      <i>Social Startup Game</i> is a single-player simulation
+      game in which you are the new chief security officer
+      at &ldquo;Social Jam&rdquo;, an up-and-coming social media
+      company. Can you help your company acquire more users 
+      during your probationary period while keeping the company
+      safe from hackers?
     </p>
     <p>
-      <a href="social-startup-game">Play Now!</a>
+      More information about this project can be found in
+      Technical Reports #314 and #318 of the 
+      <a href="http://www.serc.net">Security and Software Engineering
+	Research Center</a>.
+    </p>
+
+    <h2>Acknowledgments</h2>
+    <p>
+      This work was made possible by support from the 
+      National Science Foundation (Grant No. 0968959),
+      the <a href="http://www.serc.net">Security and Software Engineering Research Center</a>,
+      and the <a href="http://www.cs.bsu.edu">Computer Science Department</a> 
+      and <a href="http://www.bsu.edu/honors">Honors College</a>
+      at <a href="http://bsu.edu">Ball State University</a>.
     </p>
   </body>
 </html>
