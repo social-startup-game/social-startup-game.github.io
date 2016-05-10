@@ -1,2 +1,3 @@
-# social-startup-game.github.io
-Project informational web site
+# Project Web Site
+
+This repository contains the informational Web site for _Social Startup Game_.
